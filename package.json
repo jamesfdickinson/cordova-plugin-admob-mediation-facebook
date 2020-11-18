@@ -1,9 +1,9 @@
 {
-    "name": "cordova-plugin-admob-mediation-facebook",
+    "name": "cordova-plugin-admob-mediation-facebook-jd",
     "version": "1.3.0",
     "description": "AdMob Mediation Adapter for Facebook Audience Network",
     "cordova": {
-        "id": "cordova-plugin-admob-mediation-facebook",
+        "id": "cordova-plugin-admob-mediation-facebook-jd",
         "platforms": [
             "android",
             "ios"
@@ -25,12 +25,12 @@
         "mediation"
     ],
     "author": {
-        "name": "Sylvain Bréjeon",
-        "url": "https://github.com/becvert"
+        "name": "Jimmy Dickinson",
+        "url": "https://github.com/jamesfdickinson"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/becvert/cordova-plugin-admob-mediation-facebook/issues"
+        "url": "https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-facebook/issues"
     },
-    "homepage": "https://github.com/becvert/cordova-plugin-admob-mediation-facebook"
+    "homepage": "https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-facebook"
 }
