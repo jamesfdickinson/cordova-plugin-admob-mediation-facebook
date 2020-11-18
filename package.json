@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/becvert/cordova-plugin-admob-mediation-facebook.git"
+        "url": "git+https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-facebook.git"
     },
     "keywords": [
         "ecosystem:cordova",
