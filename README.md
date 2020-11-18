@@ -1,6 +1,6 @@
 [AdMob Mediation Adapter](https://firebase.google.com/docs/admob/android/mediation-networks) for [Facebook Audience Network](https://developers.facebook.com/docs/audience-network/getting-started)
 
-Use with cordova admob plugins such as [cordova-plugin-admob-free](https://github.com/ratson/cordova-plugin-admob-free)
+Use with cordova admob plugins such as [cordova-admob-jimmy](https://github.com/jamesfdickinson/admob-google-cordova-clean)
 
 [CHANGELOG](https://github.com/becvert/cordova-plugin-admob-mediation-facebook/blob/master/CHANGELOG.md)
 
@@ -9,7 +9,7 @@ Use with cordova admob plugins such as [cordova-plugin-admob-free](https://githu
 In your application project directory:
 
 ```bash
-cordova plugin add cordova-plugin-admob-mediation-facebook
+cordova plugin add cordova-plugin-admob-mediation-facebook-jd
 ```
 
 ## Usage ##
