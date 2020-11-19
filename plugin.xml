@@ -19,7 +19,7 @@
     <platform name="ios">
     <podspec>
 			<config>
-				<source url="https://github.com/CocoaPods/Specs.git"/>
+				<source url="https://cdn.cocoapods.org/"/>
 			</config>
 			<pods>
 				<pod name="FBAudienceNetwork" version="6.2.0" />
