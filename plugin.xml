@@ -12,8 +12,8 @@
     <license>MIT</license>
 
     <platform name="android">
-        <framework src="com.facebook.android:audience-network-sdk:6.2.0" />
-        <framework src="com.google.ads.mediation:facebook:6.2.0.0" />
+        <framework src="com.facebook.android:audience-network-sdk:6.3.0" />
+        <framework src="com.google.ads.mediation:facebook:6.3.0.1" />
     </platform>
 
     <platform name="ios">
@@ -22,8 +22,8 @@
 				<source url="https://cdn.cocoapods.org/"/>
 			</config>
 			<pods>
-				<pod name="FBAudienceNetwork" version="6.2.0" />
-                <pod name="GoogleMobileAdsMediationFacebook" version="6.2.0.0" />
+				<pod name="FBAudienceNetwork" version="6.3.1" />
+                <pod name="GoogleMobileAdsMediationFacebook" version="6.3.1.0" />
 			</pods>
 		</podspec>
     </platform>
