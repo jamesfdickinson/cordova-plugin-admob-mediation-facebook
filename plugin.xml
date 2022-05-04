@@ -27,9 +27,9 @@
     </platform>
 
     <platform name="ios">
-       <preference name="AUDIENCE_NETWORK_SDK_VERSION_IOS" default="~> 6.9.0" />
+        <preference name="AUDIENCE_NETWORK_SDK_VERSION_IOS" default="~> 6.9.0" />
         <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" default="~> 6.9.0.1" />
-    
+
         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
@@ -50,5 +50,6 @@
                     <string>n38lu8286q.skadnetwork</string>
                 </dict>
             </array>
-        </platform>
-    </plugin>
+        </config-file>
+    </platform>
+</plugin>
