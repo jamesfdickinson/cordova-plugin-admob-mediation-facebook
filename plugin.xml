@@ -12,6 +12,15 @@
     <platform name="android">
         <preference name="AUDIENCE_NETWORK_SDK_VERSION" default="6.8.0" />
         <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION" default="6.8.0.0" />
+        <!-- 6.8.0.0
+            Verified compatibility with Facebook SDK v6.8.0.
+            Updated the minimum required Google Mobile Ads SDK version to 20.4.0.
+            Built and tested with:
+
+            Google Mobile Ads SDK version 20.4.0.
+            Facebook SDK version 6.8.0.
+            https://developers.google.com/admob/android/mediation/facebook
+        -->
 
         <framework src="com.facebook.android:audience-network-sdk:$AUDIENCE_NETWORK_SDK_VERSION" />
         <framework src="com.google.ads.mediation:facebook:$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION" />
@@ -27,5 +36,16 @@
                 <pod name="GoogleMobileAdsMediationFacebook" version="6.9.0.1" />
             </pods>
         </podspec>
-    </platform>
-</plugin>
+        <config-file target="*-Info.plist" parent="SKAdNetworkItems">
+            <array>
+                <dict>
+                    <key>SKAdNetworkIdentifier</key>
+                    <string>v9wttpbfk9.skadnetwork</string>
+                </dict>
+                <dict>
+                    <key>SKAdNetworkIdentifier</key>
+                    <string>n38lu8286q.skadnetwork</string>
+                </dict>
+            </array>
+        </platform>
+    </plugin>
