@@ -35,8 +35,8 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="FBAudienceNetwork" version="$AUDIENCE_NETWORK_SDK_VERSION_IOS" />
-                <pod name="GoogleMobileAdsMediationFacebook" version="$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" />
+                <pod name="FBAudienceNetwork" spec="$AUDIENCE_NETWORK_SDK_VERSION_IOS" />
+                <pod name="GoogleMobileAdsMediationFacebook" spec="$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" />
             </pods>
         </podspec>
         <config-file target="*-Info.plist" parent="SKAdNetworkItems">
