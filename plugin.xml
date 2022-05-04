@@ -10,8 +10,8 @@
     <license>MIT</license>
 
     <platform name="android">
-        <preference name="AUDIENCE_NETWORK_SDK_VERSION" default="6.8.0" />
-        <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION" default="6.8.0.0" />
+        <preference name="AUDIENCE_NETWORK_SDK_VERSION_ANDROID" default="6.8.0" />
+        <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_ANDROID" default="6.8.0.0" />
         <!-- 6.8.0.0
             Verified compatibility with Facebook SDK v6.8.0.
             Updated the minimum required Google Mobile Ads SDK version to 20.4.0.
@@ -22,18 +22,21 @@
             https://developers.google.com/admob/android/mediation/facebook
         -->
 
-        <framework src="com.facebook.android:audience-network-sdk:$AUDIENCE_NETWORK_SDK_VERSION" />
-        <framework src="com.google.ads.mediation:facebook:$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION" />
+        <framework src="com.facebook.android:audience-network-sdk:$AUDIENCE_NETWORK_SDK_VERSION_ANDROID" />
+        <framework src="com.google.ads.mediation:facebook:$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_ANDROID" />
     </platform>
 
     <platform name="ios">
+       <preference name="AUDIENCE_NETWORK_SDK_VERSION_IOS" default="~> 6.9.0" />
+        <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" default="~> 6.9.0.1" />
+    
         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="FBAudienceNetwork" version="6.9.0" />
-                <pod name="GoogleMobileAdsMediationFacebook" version="6.9.0.1" />
+                <pod name="FBAudienceNetwork" version="$AUDIENCE_NETWORK_SDK_VERSION_IOS" />
+                <pod name="GoogleMobileAdsMediationFacebook" version="$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" />
             </pods>
         </podspec>
         <config-file target="*-Info.plist" parent="SKAdNetworkItems">
