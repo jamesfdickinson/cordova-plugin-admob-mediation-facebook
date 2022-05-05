@@ -27,7 +27,6 @@
     </platform>
 
     <platform name="ios">
-        <preference name="AUDIENCE_NETWORK_SDK_VERSION_IOS" default="~> 6.9.0" />
         <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" default="~> 6.9.0.1" />
 
         <podspec>
@@ -35,7 +34,6 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="FBAudienceNetwork" spec="$AUDIENCE_NETWORK_SDK_VERSION_IOS" />
                 <pod name="GoogleMobileAdsMediationFacebook" spec="$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" />
             </pods>
         </podspec>
