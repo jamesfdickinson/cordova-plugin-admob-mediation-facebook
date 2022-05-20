@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-admob-mediation-facebook-jd",
-    "version": "1.5.6",
+    "version": "1.5.7",
     "description": "AdMob Mediation Adapter for Facebook Audience Network",
     "cordova": {
         "id": "cordova-plugin-admob-mediation-facebook-jd",
