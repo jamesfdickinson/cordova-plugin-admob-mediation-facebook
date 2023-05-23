@@ -2,7 +2,7 @@
 
 Use with cordova admob plugins such as [cordova-admob-jimmy](https://github.com/jamesfdickinson/admob-google-cordova-clean)
 
-[CHANGELOG](https://github.com/becvert/cordova-plugin-admob-mediation-facebook/blob/master/CHANGELOG.md)
+[CHANGELOG](https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-facebook-jd/blob/master/CHANGELOG.md)
 
 ## Installation ##
 

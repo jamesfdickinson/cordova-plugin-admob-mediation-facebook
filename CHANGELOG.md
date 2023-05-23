@@ -1,3 +1,6 @@
+## [1.6.0] - 2023-5-23
+- Facebook Adapter 6.14.0
+- removed sdk, no only uses the mediation sdk instead of both
 ## [1.3.0] - 2020-11-18
 - Facebook Adapter 6.2.0.0
 ## [1.2.7] - 2019-04-05
