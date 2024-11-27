@@ -12,6 +12,8 @@
     <platform name="android">
         <preference name="GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_ANDROID" default="6.18.0.0" />
         <framework src="com.google.ads.mediation:facebook:$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_ANDROID" />
+        <framework src="androidx.annotation:annotation:1.0.0" />
+        <framework src="com.facebook.android:audience-network-sdk:6.18.0" />
     </platform>
 
     <platform name="ios">
