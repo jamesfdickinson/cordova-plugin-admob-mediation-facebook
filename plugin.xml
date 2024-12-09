@@ -21,7 +21,7 @@
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
-            <pods>
+            <pods use-frameworks="true">
                 <pod name="GoogleMobileAdsMediationFacebook" spec="$GOOGLE_ADS_MEDIATION_FACEBOOK_VERSION_IOS" />
             </pods>
         </podspec>
